@@ -1,6 +1,6 @@
 <?php 
-$a = 3;
-$b = 7;
+$a = 5;
+$b = 37;
 
-echo $b % $a;
-echo $b . " - " . $a;
+$c = $b % $a;
+echo $c;

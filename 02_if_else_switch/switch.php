@@ -1,25 +1,17 @@
 <?php 
 
+$user_age = 13;
 
-switch ('Sunday') {
-	case ('Monday'):		
-	case ('Tuesday'):
-	case ('Wednesday'):
-	case ('Thursday'):
-	case ('Friday'):
-		echo "Work day";
-		break;
-	case 'Saturday':
-	case 'Sunday':
-		echo "Holy day";
-		break;
-
-
+switch ($user_age) {
+	case ($user_age > 0 && $user_age <= 7):
+		echo 'Go to kindergarden';
+	case ($user_age >19 && $user_age <=65):
+			echo "Go to work";		
+	case ($user_age > 7 && $user_age <= 19):
+		echo 'Go to school';
+		
 	
 	default:
-		echo "Invalid day";
+		echo "Invalid age";
 		break;
 }
-
-echo date('H:i M');
-
