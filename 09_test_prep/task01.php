@@ -28,14 +28,20 @@ if (empty($_GET)) {
 		foreach ($arr_veg as $value) {
 			echo '<li>'.$value.'</li>';
 		}
-		
+
 		echo "</ul>";
 	}
 	elseif($_GET['meal'] == 'meat') {
+
 		echo "<ul>";
+
 		foreach ($arr_meat as $value) {
 			echo '<li>'.$value.'</li>';
 		}
+
 		echo "</ul>";
+
 	}
+	
 }
+

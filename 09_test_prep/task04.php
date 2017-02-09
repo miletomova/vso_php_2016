@@ -1,5 +1,4 @@
 <?php 
-
 function str_print($str, $sign){
 
 	$arr_str = explode(' ', $str);
@@ -7,14 +6,17 @@ function str_print($str, $sign){
 
 	echo "<ul>";
 	for ($i=0; $i < $count; $i++) { 
-
+		$cur_str = '';
 		$cur_len = strlen($arr_str[$i]);
-		echo '<li>'.$arr_str[$i][0];
+
+		$cur_str.= $arr_str[$i][0];
 
 		for ($j=1; $j < $cur_len; $j++) { 
-			echo ' ' .$sign . ' ';
+			$cur_str.= $sign . ' ';
 		}
-		echo '</li>';
+		echo '<li>' . $cur_str . '</li>';
+		
+		$arr_str[$i] = $cur_str;
 
 	}
 

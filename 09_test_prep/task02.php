@@ -14,13 +14,13 @@ $hk_all = 0;
 
 //THE LEAST GI
 $gi_min 	= $foods[0]['gi'];
+//index of min gi element
 $gi_min_ind = 0;
 
 echo '<table border = 1>';
 echo '<thead><th>храна</th><th>калории</th><th>ГИ</th><th>мазнини</th><th>белтъчини</th><th>ХК</th></thead>';
 
-for ($i=0; $i < $count; $i++) { 
-	
+for ($i=0; $i < $count; $i++) { 	
 	
 	$foods[$i]['hk'] = ($foods[$i]['gi']*$foods[$i]['gi']+($foods[$i]['fats']+$foods[$i]['prots']))/($foods[$i]['cal']*2);
 
