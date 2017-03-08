@@ -1,0 +1,2 @@
+1/ SELECT * FROM `flights` JOIN `weekdays` ON `flights`.`weekday_id` = `weekdays`.`weekday_id` JOIN `destinations` ON `flights`.`destination_id` = `destinations`.`destination_id` WHERE `flights`.`date_deleted` IS NULL
+2/SELECT MAX(`price`) FROM `flights` WHERE `date_deleted` IS NULL
