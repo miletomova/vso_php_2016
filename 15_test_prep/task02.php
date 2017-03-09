@@ -5,8 +5,7 @@ function matrix($col, $row){
 	for($i = 0; $i < $row; $i++){
 		for($j = 0; $j < $col; $j++){
 			$arr[$i][$j] = $num;
-			$num = $num+110;
-			
+			$num = $num+110;			
 		}
 		$num = 7*($i+2);
 	}
