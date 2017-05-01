@@ -1,6 +1,5 @@
-</div>
-  </div>
   <div id="templatemo_bottom">
+  <?php if( !dynamic_sidebar('footer')):?>
     <div class="col col14">
         <h4>Photo Gallery</h4>
         <ul class="footer_gallery">
@@ -46,15 +45,6 @@
         <p>
             Etiam tempus volutpat velit eget egestas. Sed tempor, sapien a tincidunt commodo, ante nisl aliquam tortor, et tempus tellus ante vitae elit. Vivamus eget justo est, ac auctor nibh. Mauris sed pretium turpis. Proin vitae nibh enim, vel blandit massa. Maecenas sit amet elit lectus, id porttitor dignissim lacus.</p>
         </div>
-        
+        <?php endif; ?>
         <div class="cleaner"></div>
     </div>
-    
-    <div id="templatemo_footer_wrapper">
-        <div id="templatemo_footer">
-            Copyright © 2048 <a href="#">Your Company Name</a> <!-- Credit: www.templatemo.com -->
-        </div>
-    </div>
-</div>
-</body>
-</html>
