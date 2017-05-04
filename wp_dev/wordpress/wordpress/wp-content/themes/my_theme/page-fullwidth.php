@@ -1,4 +1,8 @@
-<?php
+<?php 
+/*
+* Template name: Full Width
+*/
+
 get_header()?>
 <div id="templatemo_main">
     <div class="col col23">
@@ -25,9 +29,7 @@ get_header()?>
             endif;
             ?>
         </div>
-        <!-- SIDBAR -->
-        <?php get_sidebar('right') ?>
-      <!-- END SIDEBAR -->
+        
       <div class="cleaner"></div>
   </div>
   <!-- END MAIN -->

@@ -1,7 +1,14 @@
-<?php
+<?php 
+
+/*
+* Template name: Demo
+*/
+
 get_header()?>
 <div id="templatemo_main">
-    <div class="col col23">
+    <div>
+
+    <h1>Demo</h1>
         <?php 
         if(have_posts()):
             while(have_posts()):
@@ -25,9 +32,7 @@ get_header()?>
             endif;
             ?>
         </div>
-        <!-- SIDBAR -->
-        <?php get_sidebar('right') ?>
-      <!-- END SIDEBAR -->
+       <h1>Demo</h1>
       <div class="cleaner"></div>
   </div>
   <!-- END MAIN -->
@@ -35,3 +40,4 @@ get_header()?>
 <?php 
 get_footer()
 ?>
+

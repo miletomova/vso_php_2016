@@ -33,11 +33,11 @@ http://www.templatemo.com/preview/templatemo_353_beauty_class
 <script type="text/javascript">
 
     ddsmoothmenu.init({
-	mainmenuid: "templatemo_menu", //menu DIV id
-	orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
-	classname: 'ddsmoothmenu', //class added to menu's outer DIV
-	//customtheme: ["#1c5a80", "#18374a"],
-	contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
+    mainmenuid: "templatemo_menu", //menu DIV id
+    orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
+    classname: 'ddsmoothmenu', //class added to menu's outer DIV
+    //customtheme: ["#1c5a80", "#18374a"],
+    contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
 })
 
 </script>
@@ -54,14 +54,15 @@ http://www.templatemo.com/preview/templatemo_353_beauty_class
             <div id="templatemo_header">    
                 <div id="site_title"><a href="#">Beauty Class</a></div>
                 <div id="templatemo_menu" class="ddsmoothmenu">
-                    <?php 
-                    if (has_nav_menu('header')) :
-                    wp_nav_menu(array(
-                    'theme_location' => 'header',                     
-                    'container_id' => 'templatemo_menu',
-                    ));
-                    else: 
-                    ?>
+            <?php 
+                if(has_nav_menu('header_menu')):
+                    wp_nav_menu([
+                        'theme_location'=>'header_menu', 
+                        'menu_id'=>'h_menu',
+                           'container'=>''
+                          ]);
+                else:                   
+                 ?>
                     <ul>
                         <li><a href="index.html" class="selected">Home</a></li>
                         <li><a href="about.html">About</a>
@@ -83,10 +84,10 @@ http://www.templatemo.com/preview/templatemo_353_beauty_class
                         <li><a href="blog.html">Blog</a></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
-                    <?php 
-                    endif;
-                    ?>
                     <br style="clear: left" />
+                  <?php 
+endif;
+
+                  ?>
                 </div> <!-- end of templatemo_menu -->
             </div>
-            <!-- END HEADER -->

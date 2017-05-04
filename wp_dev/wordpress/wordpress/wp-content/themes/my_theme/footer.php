@@ -1,21 +1,20 @@
-   
- <div id="templatemo_bottom">
+<div id="templatemo_bottom">
         <div class="col col14">
-        <h4>Photo Gallery</h4>
-        <ul class="footer_gallery">
-            <li><a href="images/templatemo_image_03_l.jpg"  rel="lightbox[portfolio]"><img src="<?php echo get_template_directory_uri(); ?>/images/templatemo_image_03.jpg" alt="Image 01" /></a></li>
-            <li><a href="images/templatemo_image_04_l.jpg"  rel="lightbox[portfolio]"><img src="<?php echo get_template_directory_uri(); ?>/images/templatemo_image_04.jpg" alt="Image 02" /></a></li>
-            <li><a href="images/templatemo_image_05_l.jpg"  rel="lightbox[portfolio]"><img src="<?php echo get_template_directory_uri(); ?>/images/templatemo_image_05.jpg" alt="Image 03" /></a></li>
-            <li><a href="images/templatemo_image_06_l.jpg"  rel="lightbox[portfolio]"><img src="<?php echo get_template_directory_uri(); ?>/images/templatemo_image_06.jpg" alt="Image 04" /></a></li>
-            <li><a href="images/templatemo_image_07_l.jpg"  rel="lightbox[portfolio]"><img src="<?php echo get_template_directory_uri(); ?>/images/templatemo_image_07.jpg" alt="Image 05" /></a></li>
-            <li><a href="images/templatemo_image_08_l.jpg"  rel="lightbox[portfolio]"><img src="<?php echo get_template_directory_uri(); ?>/images/templatemo_image_08.jpg" alt="Image 06" /></a></li>
-            <li><a href="images/templatemo_image_09_l.jpg"  rel="lightbox[portfolio]"><img src="<?php echo get_template_directory_uri(); ?>/images/templatemo_image_09.jpg" alt="Image 07" /></a></li>
-            <li><a href="images/templatemo_image_10_l.jpg"  rel="lightbox[portfolio]"><img src="<?php echo get_template_directory_uri(); ?>/images/templatemo_image_10.jpg" alt="Image 08" /></a></li>
-            <li><a href="images/templatemo_image_11_l.jpg"  rel="lightbox[portfolio]"><img src="<?php echo get_template_directory_uri(); ?>/images/templatemo_image_11.jpg" alt="Image 09" /></a></li>
-        </ul>
-        <div class="cleaner h20"></div>
-        <a href="portfolio.html" class="more">more</a>
-    </div>
+            <h4>Photo Gallery</h4>
+            <ul class="footer_gallery">
+                <li><a href="images/templatemo_image_03_l.jpg"  rel="lightbox[portfolio]"><img src="<?php echo get_template_directory_uri() ?>/images/templatemo_image_03.jpg" alt="Image 01" /></a></li>
+                <li><a href="images/templatemo_image_04_l.jpg"  rel="lightbox[portfolio]"><img src="<?php echo get_template_directory_uri() ?>/images/templatemo_image_04.jpg" alt="Image 02" /></a></li>
+                <li><a href="images/templatemo_image_05_l.jpg"  rel="lightbox[portfolio]"><img src="<?php echo get_template_directory_uri() ?>/images/templatemo_image_05.jpg" alt="Image 03" /></a></li>
+                <li><a href="images/templatemo_image_06_l.jpg"  rel="lightbox[portfolio]"><img src="<?php echo get_template_directory_uri() ?>/images/templatemo_image_06.jpg" alt="Image 04" /></a></li>
+                <li><a href="images/templatemo_image_07_l.jpg"  rel="lightbox[portfolio]"><img src="<?php echo get_template_directory_uri() ?>/images/templatemo_image_07.jpg" alt="Image 05" /></a></li>
+                <li><a href="images/templatemo_image_08_l.jpg"  rel="lightbox[portfolio]"><img src="<?php echo get_template_directory_uri() ?>/images/templatemo_image_08.jpg" alt="Image 06" /></a></li>
+                <li><a href="images/templatemo_image_09_l.jpg"  rel="lightbox[portfolio]"><img src="<?php echo get_template_directory_uri() ?>/images/templatemo_image_09.jpg" alt="Image 07" /></a></li>
+                <li><a href="images/templatemo_image_10_l.jpg"  rel="lightbox[portfolio]"><img src="<?php echo get_template_directory_uri() ?>/images/templatemo_image_10.jpg" alt="Image 08" /></a></li>
+                <li><a href="images/templatemo_image_11_l.jpg"  rel="lightbox[portfolio]"><img src="<?php echo get_template_directory_uri() ?>/images/templatemo_image_11.jpg" alt="Image 09" /></a></li>
+            </ul>
+            <div class="cleaner h20"></div>
+            <a href="portfolio.html" class="more">more</a>
+        </div>
         
         <div class="col col14">
             <h4>Recent Posts</h4>

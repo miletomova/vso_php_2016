@@ -1,7 +1,4 @@
-<?php
-get_header()?>
-<!-- SLIDER -->
-       
+<?php get_header() ?>
  <div id="templatemo_slider">
            <div id="slider-wrapper">
                 <div id="slider" class="nivoSlider">
@@ -23,10 +20,9 @@ get_header()?>
             });
             </script>
         </div>
-<!-- END SLIDER/ -->
         <div id="templatemo_main">
             <div class="col col23">
-                <h2>Welcome To Front Page</h2>
+                <h2>Welcome To Beauty Class</h2>
                 <p><em>Aenean rutrum, velit in tincidunt ullamcorper, augue arcu cursus tortor, a pulvinar urna eros ut dolor. In mollis augue non dolor faucibus et porta magna congue. </em></p>
                 <p>Beauty Class is free template provided by templatemo for your personal or commercial websites. Please tell your friends about <strong>templatemo.com</strong> website. Thank you. Vestibulum in mauris id nulla fermentum congue nec vel dolor. Duis ultricies, felis eget ornare adipiscing, erat libero iaculis metus, at suscipit metus erat viverra est. Etiam faucibus aliquet turpis sit amet congue. Praesent at nulla id lectus mattis consequat. Validate <a href="http://validator.w3.org/check?uri=referer" rel="nofollow"><strong>XHTML</strong></a> &amp; <a href="http://jigsaw.w3.org/css-validator/check/referer" rel="nofollow"><strong>CSS</strong></a>.</p>
                 <div class="cleaner h40"></div>
@@ -42,12 +38,10 @@ get_header()?>
                 <p>Fusce id elit dolor, sit amet lacinia purus. Donec iaculis ullamcorper ipsum id tristique. Donec eget nisl tortor, eu congue felis. Ut blandit auctor odio nec viverra.</p>
                 <a href="#">More</a>
             </div>
-            <!-- SIDEBAR -->
-            <?php get_sidebar('right') ?>
-            <!-- END SIDEBAR/ -->
+            <!-- SERVICES -->
+             <?php get_sidebar('right') ?>
+            <!-- END SERVICES -->
             <div class="cleaner"></div>
         </div>
     </div>
-   <?php 
-get_footer()
-   ?>
+   <?php get_footer() ?>
